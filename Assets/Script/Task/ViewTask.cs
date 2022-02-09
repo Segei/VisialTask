@@ -19,6 +19,7 @@ namespace Script.Task
                 _name.text = _task.Name;
                 _discription.text = _task.Description;
                 _createDate.text = _task.CreateDate.ToString("MMM dd yy");
+                _state.onValueChanged.AddListener((input) => _task.State = (StateTask)input);
             }
         }
         public UnityEvent<EditTask> ImRemove { get; set; } = new UnityEvent<EditTask>();
