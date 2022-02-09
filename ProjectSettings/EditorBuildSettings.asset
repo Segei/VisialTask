@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SceneViewTask.unity
+    guid: 01fa04c514c64a94097361a391c4feba
+  - enabled: 1
+    path: Assets/Scenes/SceneEditTaskAssignee.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/SceneBarGraphDiagram.unity
+    guid: 15974137beba60540bf4fe5f8d3a8788
+  - enabled: 1
+    path: Assets/Scenes/SceneCircleDiagram.unity
+    guid: f48138f44e2558d4a9cc0e77e9f4df68
   m_configObjects: {}
